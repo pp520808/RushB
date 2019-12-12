@@ -1,18 +1,10 @@
 /*
- * @Description: 
- * @Version: 1.0
- * @Autor: Roman.Liu
- * @Date: 2019-12-12 11:15:31
- * @LastEditors: Roman.Liu
- * @LastEditTime: 2019-12-12 17:33:01
- */
-/*
  * @Description: Application for Bubble Sort 
  * @Version: 1.0
  * @Autor: Roman.Liu
  * @Date: 2019-12-12 11:01:34
  * @LastEditors: Roman.Liu
- * @LastEditTime: 2019-12-12 11:02:44
+ * @LastEditTime: 2019-12-12 17:34:13
  */
 /* The begin of include */
 #include <stdio.h>
@@ -39,5 +31,5 @@ int main(void)
     Quick_Sort(arr2,len);  /* 快速排序 */
     printf("快速排序\r\n");
     Printf_Arry(arr2, len);  /* 打印数组 */
-    return 0;222
+    return 0;
 }
